@@ -5,6 +5,8 @@
 *.tfstate
 *.tfstate.*
 
+# MacOS trash
+*.DS_Store
 # Crash log files
 crash.log
 
