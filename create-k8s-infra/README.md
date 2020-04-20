@@ -1,1 +1,0 @@
-Module for deploy k8s use OpenStack API.
