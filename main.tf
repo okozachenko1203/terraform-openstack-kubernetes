@@ -13,7 +13,7 @@ resource "openstack_compute_keypair_v2" "user_key" {
 
 resource "openstack_compute_secgroup_v2" "k8s-os" {
 	name        = "k8s-os-${var.cluster_name}"
-	description = "K8S Openshift general security group for ${var.cluster_name}"
+	description = "K8S Openstack general security group for ${var.cluster_name}"
 
 	rule {
 		from_port	= 1
